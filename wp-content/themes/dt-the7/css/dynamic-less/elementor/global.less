@@ -1,0 +1,35 @@
+/*css vars mixin*/
+.css-var-background(@varName, @startColor: #eee, @endColor: white) when (@endColor = ~"") {
+  background: var(~"@{varName}", @startColor);
+}
+.css-var-background(@varName, @startColor: #eee, @endColor: white) when not (@endColor = ~"") {
+  background: var(~"@{varName}", transparent linear-gradient(@endColor));
+}
+
+.elementor-button,
+.elementor-slides .swiper-slide-inner .elementor-slide-button {
+  display: inline-flex;
+  align-items: center;
+}
+.elementor-button .elementor-button-content-wrapper,
+.elementor-form .elementor-button>span{
+  flex-grow: 1;
+}
+
+.elementor-button,
+a.elementor-button:visited,
+.elementor-flip-box__button.elementor-button{
+  color: var(--the7-btn-color);
+  .css-var-background("--the7-btn-bg", @startColor: @dt-btn-bg-color, @endColor: @dt-btn-bg-color-2);
+  border-color: var(--the7-btn-border-color);
+  border-style: solid;
+  border-width: 0;
+  font-family: var(--the7-base-font-family);
+
+  .box-hover:hover &,
+  &:hover, &:focus {
+    color: var(--the7-btn-hover-color);
+    .css-var-background("--the7-btn-hover-bg", @dt-btn-hover-bg-color, @dt-btn-hover-bg-color-2);
+    border-color: var(--the7-btn-border-hover-color);
+  }
+}
