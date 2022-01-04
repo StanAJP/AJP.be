@@ -79,6 +79,7 @@ div[class*='the7-simple-widget'] .the7-simple-post-thumb {
   flex-shrink: 0;
   margin: 0 var(--image-spacing) 0 0;
   width: var(--image-size);
+  max-width: 100%;
 }
 .img-align-right [class*='the7-simple-widget'] .the7-simple-post-thumb {
   margin: 0 0 0 var(--image-spacing);

@@ -1,14 +1,14 @@
 (function ($) {
     "use strict";
     $.the7StickyRow = function (el) {
-        var $widget = $(el),
+        let $widget = $(el),
             elementorSettings,
             settings,
             modelCID,
             // breakpoints,
             effectsActive = false;
 
-        var methods = {};
+        let methods = {};
         $widget.vars = {};
         // Store a reference to the object
         $.data(el, "the7StickyRow", $widget);
@@ -97,8 +97,8 @@
                 if (!effectsActive) {
                     return;
                 }
-                $widget.reactivateSticky();
                 effectsActive = false;
+                $widget.reactivateSticky();
             },
             activateSticky: function () {
                 if (methods.isStickyInstanceActive()) {
@@ -322,6 +322,9 @@
     var the7StickyEffectElementHide = function ($elements) {
         $elements.each(function () {
             var $this = $(this);
+            if ($this.hasClass("the7-e-sticky-spacer")) {
+                return;
+            }
             var widgetData = $(this).data('the7StickyEffectElementHide');
             if (widgetData !== undefined) {
                 widgetData.delete();
@@ -332,23 +335,35 @@
 
     // Make sure you run this code under Elementor.
     $(window).on("elementor/frontend/init", function () {
+
+        function handleSection($widget) {
+            the7StickyRow($widget);
+            let elementorSettings = new The7ElementorSettings($widget);
+            let settings = elementorSettings.getSettings();
+            if (typeof settings !== 'undefined') {
+                let list = The7ElementorSettings.getResponsiveSettingList('the7_hide_on_sticky_effect');
+                let isActive = list.some(function (item) {
+                    return item in settings && settings[item] !== '';
+                });
+                if (isActive) {
+                    the7StickyEffectElementHide($widget);
+                }
+            }
+        }
+
+        elementorFrontend.elements.$document.on('elementor/popup/show', function (event, id, popupElementorObject) {
+            popupElementorObject.$element.find('.elementor-section').each(function () {
+                var $widget = $(this);
+                handleSection($widget);
+            });
+        });
+
         elementorFrontend.hooks.addAction("frontend/element_ready/section", function ($widget, $) {
             $(document).ready(function () {
-                the7StickyRow($widget);
-                let elementorSettings = new The7ElementorSettings($widget);
-                let settings = elementorSettings.getSettings();
-                if (typeof settings !== 'undefined') {
-                    let list = The7ElementorSettings.getResponsiveSettingList('the7_hide_on_sticky_effect');
-                    let isActive = list.some(function (item) {
-                        return item in settings && settings[item] !== '';
-                    });
-                    if (isActive) {
-                        the7StickyEffectElementHide($widget);
-                    }
-                }
-
+                handleSection($widget);
             })
         });
+
         if (elementorFrontend.isEditMode()) {
             elementorEditorAddOnChangeHandler("section", refresh);
         }
@@ -384,7 +399,7 @@
             var hide_effect_controls = [
                 ...The7ElementorSettings.getResponsiveSettingList('the7_hide_on_sticky_effect'),
             ];
-            if (-1 !== hide_effect_controlsRefresh.indexOf(controlName)) {
+            if (-1 !== hide_effect_controls.indexOf(controlName)) {
                 var $widget = window.jQuery(widgetView.$el);
                 var widgetData = $widget.data('the7StickyEffectElementHide');
                 if (typeof widgetData !== 'undefined') {

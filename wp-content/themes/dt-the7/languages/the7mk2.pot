@@ -2,9 +2,9 @@
 # This file is distributed under the This WordPress theme is comprised of two parts: (1) The PHP code and integrated HTML are licensed under the GPL license as is WordPress itself.  You will find a copy of the license text in the same directory as this text file. Or you can read it here: http://wordpress.org/about/gpl/ (2) All other parts of the theme including, but not limited to the CSS code, images, and design are licensed according to the license purchased. Read about licensing details here: http://themeforest.net/licenses/regular_extended.=!>
 msgid ""
 msgstr ""
-"Project-Id-Version: The7 10.2.0\n"
+"Project-Id-Version: The7 10.2.1\n"
 "Report-Msgid-Bugs-To: https://support.dream-theme.com/\n"
-"POT-Creation-Date: 2021-12-23 14:07:24+00:00\n"
+"POT-Creation-Date: 2021-12-29 09:07:38+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -318,13 +318,13 @@ msgstr ""
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:806
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:834
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:864
-#: inc/mods/compatibility/elementor/widgets/posts.php:747
-#: inc/mods/compatibility/elementor/widgets/posts.php:800
-#: inc/mods/compatibility/elementor/widgets/posts.php:950
-#: inc/mods/compatibility/elementor/widgets/posts.php:1080
-#: inc/mods/compatibility/elementor/widgets/posts.php:1108
-#: inc/mods/compatibility/elementor/widgets/posts.php:1136
-#: inc/mods/compatibility/elementor/widgets/posts.php:1165
+#: inc/mods/compatibility/elementor/widgets/posts.php:769
+#: inc/mods/compatibility/elementor/widgets/posts.php:822
+#: inc/mods/compatibility/elementor/widgets/posts.php:972
+#: inc/mods/compatibility/elementor/widgets/posts.php:1102
+#: inc/mods/compatibility/elementor/widgets/posts.php:1130
+#: inc/mods/compatibility/elementor/widgets/posts.php:1158
+#: inc/mods/compatibility/elementor/widgets/posts.php:1187
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:388
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:565
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:594
@@ -365,13 +365,13 @@ msgstr ""
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:805
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:833
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:863
-#: inc/mods/compatibility/elementor/widgets/posts.php:746
-#: inc/mods/compatibility/elementor/widgets/posts.php:799
-#: inc/mods/compatibility/elementor/widgets/posts.php:949
-#: inc/mods/compatibility/elementor/widgets/posts.php:1079
-#: inc/mods/compatibility/elementor/widgets/posts.php:1107
-#: inc/mods/compatibility/elementor/widgets/posts.php:1135
-#: inc/mods/compatibility/elementor/widgets/posts.php:1164
+#: inc/mods/compatibility/elementor/widgets/posts.php:768
+#: inc/mods/compatibility/elementor/widgets/posts.php:821
+#: inc/mods/compatibility/elementor/widgets/posts.php:971
+#: inc/mods/compatibility/elementor/widgets/posts.php:1101
+#: inc/mods/compatibility/elementor/widgets/posts.php:1129
+#: inc/mods/compatibility/elementor/widgets/posts.php:1157
+#: inc/mods/compatibility/elementor/widgets/posts.php:1186
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:387
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:564
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:593
@@ -1333,11 +1333,11 @@ msgstr ""
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:2007
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:2519
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:2945
-#: inc/mods/compatibility/elementor/widgets/posts.php:1562
-#: inc/mods/compatibility/elementor/widgets/posts.php:1767
-#: inc/mods/compatibility/elementor/widgets/posts.php:1936
-#: inc/mods/compatibility/elementor/widgets/posts.php:2286
-#: inc/mods/compatibility/elementor/widgets/posts.php:2783
+#: inc/mods/compatibility/elementor/widgets/posts.php:1584
+#: inc/mods/compatibility/elementor/widgets/posts.php:1789
+#: inc/mods/compatibility/elementor/widgets/posts.php:1958
+#: inc/mods/compatibility/elementor/widgets/posts.php:2308
+#: inc/mods/compatibility/elementor/widgets/posts.php:2805
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:477
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:522
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:1218
@@ -1883,7 +1883,7 @@ msgstr ""
 
 #: inc/helpers.php:177
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:571
-#: inc/mods/compatibility/elementor/widgets/posts.php:903
+#: inc/mods/compatibility/elementor/widgets/posts.php:925
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:186
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:185
 msgid "Descending"
@@ -1891,7 +1891,7 @@ msgstr ""
 
 #: inc/helpers.php:179
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:570
-#: inc/mods/compatibility/elementor/widgets/posts.php:902
+#: inc/mods/compatibility/elementor/widgets/posts.php:924
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:185
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:184
 msgid "Ascending"
@@ -1901,7 +1901,7 @@ msgstr ""
 msgid "All posts"
 msgstr ""
 
-#: inc/helpers.php:357 inc/mods/compatibility/elementor/widgets/posts.php:761
+#: inc/helpers.php:357 inc/mods/compatibility/elementor/widgets/posts.php:783
 #: inc/mods/compatibility/elementor/widgets/taxonomy-filter.php:236
 msgid "View all"
 msgstr ""
@@ -1938,10 +1938,10 @@ msgstr ""
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:803
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:831
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:861
-#: inc/mods/compatibility/elementor/widgets/posts.php:1077
-#: inc/mods/compatibility/elementor/widgets/posts.php:1105
-#: inc/mods/compatibility/elementor/widgets/posts.php:1133
-#: inc/mods/compatibility/elementor/widgets/posts.php:1162
+#: inc/mods/compatibility/elementor/widgets/posts.php:1099
+#: inc/mods/compatibility/elementor/widgets/posts.php:1127
+#: inc/mods/compatibility/elementor/widgets/posts.php:1155
+#: inc/mods/compatibility/elementor/widgets/posts.php:1184
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:562
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:591
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:620
@@ -2267,7 +2267,7 @@ msgstr ""
 #: inc/mods/compatibility/elementor/pro/modules/woocommerce/class-the7-woocommerce-support.php:343
 #: inc/mods/compatibility/elementor/widgets/icon-box-grid.php:801
 #: inc/mods/compatibility/elementor/widgets/icon-box.php:498
-#: inc/mods/compatibility/elementor/widgets/posts.php:2636
+#: inc/mods/compatibility/elementor/widgets/posts.php:2658
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:975
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:1290
 #: inc/mods/compatibility/elementor/widgets/simple-product-categories-carousel.php:906
@@ -2290,8 +2290,8 @@ msgstr ""
 #: inc/mods/compatibility/elementor/widgets/horizontal-menu.php:223
 #: inc/mods/compatibility/elementor/widgets/photo-scroller.php:467
 #: inc/mods/compatibility/elementor/widgets/photo-scroller.php:483
-#: inc/mods/compatibility/elementor/widgets/posts.php:1228
-#: inc/mods/compatibility/elementor/widgets/posts.php:2637
+#: inc/mods/compatibility/elementor/widgets/posts.php:1250
+#: inc/mods/compatibility/elementor/widgets/posts.php:2659
 #: inc/mods/compatibility/elementor/widgets/taxonomy-filter.php:285
 #: inc/mods/compatibility/elementor/widgets/testimonials-carousel.php:124
 #: inc/mods/compatibility/elementor/widgets/text-and-icon-carousel.php:117
@@ -2556,11 +2556,11 @@ msgstr ""
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:2030
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:2570
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:2967
-#: inc/mods/compatibility/elementor/widgets/posts.php:1601
-#: inc/mods/compatibility/elementor/widgets/posts.php:1817
-#: inc/mods/compatibility/elementor/widgets/posts.php:2014
-#: inc/mods/compatibility/elementor/widgets/posts.php:2309
-#: inc/mods/compatibility/elementor/widgets/posts.php:2805
+#: inc/mods/compatibility/elementor/widgets/posts.php:1623
+#: inc/mods/compatibility/elementor/widgets/posts.php:1839
+#: inc/mods/compatibility/elementor/widgets/posts.php:2036
+#: inc/mods/compatibility/elementor/widgets/posts.php:2331
+#: inc/mods/compatibility/elementor/widgets/posts.php:2827
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:1297
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:1504
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:1633
@@ -2657,9 +2657,9 @@ msgstr ""
 #: inc/mods/compatibility/elementor/widgets/nav-menu.php:1202
 #: inc/mods/compatibility/elementor/widgets/nav-menu.php:1267
 #: inc/mods/compatibility/elementor/widgets/nav-menu.php:1332
-#: inc/mods/compatibility/elementor/widgets/posts.php:2790
 #: inc/mods/compatibility/elementor/widgets/posts.php:2812
-#: inc/mods/compatibility/elementor/widgets/posts.php:2847
+#: inc/mods/compatibility/elementor/widgets/posts.php:2834
+#: inc/mods/compatibility/elementor/widgets/posts.php:2869
 #: inc/mods/compatibility/elementor/widgets/taxonomy-filter.php:431
 #: inc/mods/compatibility/elementor/widgets/taxonomy-filter.php:453
 #: inc/mods/compatibility/elementor/widgets/taxonomy-filter.php:488
@@ -2705,8 +2705,8 @@ msgstr ""
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1221
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1260
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:2540
-#: inc/mods/compatibility/elementor/widgets/posts.php:1588
-#: inc/mods/compatibility/elementor/widgets/posts.php:1627
+#: inc/mods/compatibility/elementor/widgets/posts.php:1610
+#: inc/mods/compatibility/elementor/widgets/posts.php:1649
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:1242
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:1328
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:1989
@@ -2758,10 +2758,10 @@ msgstr ""
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1977
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:2129
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:2211
-#: inc/mods/compatibility/elementor/widgets/posts.php:2256
-#: inc/mods/compatibility/elementor/widgets/posts.php:2408
-#: inc/mods/compatibility/elementor/widgets/posts.php:2490
-#: inc/mods/compatibility/elementor/widgets/posts.php:2747
+#: inc/mods/compatibility/elementor/widgets/posts.php:2278
+#: inc/mods/compatibility/elementor/widgets/posts.php:2430
+#: inc/mods/compatibility/elementor/widgets/posts.php:2512
+#: inc/mods/compatibility/elementor/widgets/posts.php:2769
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:1578
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:1881
 #: inc/mods/compatibility/elementor/widgets/simple-product-categories-carousel.php:1460
@@ -2822,10 +2822,10 @@ msgstr ""
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1145
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1395
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1600
-#: inc/mods/compatibility/elementor/widgets/posts.php:1520
-#: inc/mods/compatibility/elementor/widgets/posts.php:1725
-#: inc/mods/compatibility/elementor/widgets/posts.php:1906
-#: inc/mods/compatibility/elementor/widgets/posts.php:2877
+#: inc/mods/compatibility/elementor/widgets/posts.php:1542
+#: inc/mods/compatibility/elementor/widgets/posts.php:1747
+#: inc/mods/compatibility/elementor/widgets/posts.php:1928
+#: inc/mods/compatibility/elementor/widgets/posts.php:2899
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:1203
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:1505
 #: inc/mods/compatibility/elementor/widgets/simple-product-categories-carousel.php:1118
@@ -2866,7 +2866,7 @@ msgstr ""
 #: inc/mods/compatibility/elementor/widgets/accordion.php:587
 #: inc/mods/compatibility/elementor/widgets/horizontal-menu.php:1674
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1327
-#: inc/mods/compatibility/elementor/widgets/posts.php:1657
+#: inc/mods/compatibility/elementor/widgets/posts.php:1679
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:1129
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:1447
 #: inc/mods/compatibility/elementor/widgets/simple-product-categories-carousel.php:1061
@@ -3156,9 +3156,9 @@ msgstr ""
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1249
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1837
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:2554
-#: inc/mods/compatibility/elementor/widgets/posts.php:1577
-#: inc/mods/compatibility/elementor/widgets/posts.php:1616
-#: inc/mods/compatibility/elementor/widgets/posts.php:2116
+#: inc/mods/compatibility/elementor/widgets/posts.php:1599
+#: inc/mods/compatibility/elementor/widgets/posts.php:1638
+#: inc/mods/compatibility/elementor/widgets/posts.php:2138
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:2003
 #: inc/mods/compatibility/elementor/widgets/simple-product-categories-carousel.php:1881
 #: inc/mods/compatibility/elementor/widgets/simple-products-carousel.php:1421
@@ -3206,8 +3206,8 @@ msgstr ""
 #: inc/mods/compatibility/elementor/widgets/icon-box.php:573
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1127
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1375
-#: inc/mods/compatibility/elementor/widgets/posts.php:1502
-#: inc/mods/compatibility/elementor/widgets/posts.php:1705
+#: inc/mods/compatibility/elementor/widgets/posts.php:1524
+#: inc/mods/compatibility/elementor/widgets/posts.php:1727
 #: inc/mods/compatibility/elementor/widgets/testimonials-carousel.php:558
 #: inc/mods/compatibility/elementor/widgets/testimonials-carousel.php:1100
 #: inc/mods/compatibility/elementor/widgets/text-and-icon-carousel.php:557
@@ -3280,18 +3280,18 @@ msgstr ""
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:850
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:878
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1025
-#: inc/mods/compatibility/elementor/widgets/posts.php:734
-#: inc/mods/compatibility/elementor/widgets/posts.php:775
-#: inc/mods/compatibility/elementor/widgets/posts.php:787
-#: inc/mods/compatibility/elementor/widgets/posts.php:979
-#: inc/mods/compatibility/elementor/widgets/posts.php:1007
-#: inc/mods/compatibility/elementor/widgets/posts.php:1040
-#: inc/mods/compatibility/elementor/widgets/posts.php:1066
-#: inc/mods/compatibility/elementor/widgets/posts.php:1094
-#: inc/mods/compatibility/elementor/widgets/posts.php:1122
-#: inc/mods/compatibility/elementor/widgets/posts.php:1151
-#: inc/mods/compatibility/elementor/widgets/posts.php:1179
-#: inc/mods/compatibility/elementor/widgets/posts.php:1400
+#: inc/mods/compatibility/elementor/widgets/posts.php:756
+#: inc/mods/compatibility/elementor/widgets/posts.php:797
+#: inc/mods/compatibility/elementor/widgets/posts.php:809
+#: inc/mods/compatibility/elementor/widgets/posts.php:1001
+#: inc/mods/compatibility/elementor/widgets/posts.php:1029
+#: inc/mods/compatibility/elementor/widgets/posts.php:1062
+#: inc/mods/compatibility/elementor/widgets/posts.php:1088
+#: inc/mods/compatibility/elementor/widgets/posts.php:1116
+#: inc/mods/compatibility/elementor/widgets/posts.php:1144
+#: inc/mods/compatibility/elementor/widgets/posts.php:1173
+#: inc/mods/compatibility/elementor/widgets/posts.php:1201
+#: inc/mods/compatibility/elementor/widgets/posts.php:1422
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:263
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:430
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:443
@@ -3393,18 +3393,18 @@ msgstr ""
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:851
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:879
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1026
-#: inc/mods/compatibility/elementor/widgets/posts.php:735
-#: inc/mods/compatibility/elementor/widgets/posts.php:776
-#: inc/mods/compatibility/elementor/widgets/posts.php:788
-#: inc/mods/compatibility/elementor/widgets/posts.php:980
-#: inc/mods/compatibility/elementor/widgets/posts.php:1008
-#: inc/mods/compatibility/elementor/widgets/posts.php:1041
-#: inc/mods/compatibility/elementor/widgets/posts.php:1067
-#: inc/mods/compatibility/elementor/widgets/posts.php:1095
-#: inc/mods/compatibility/elementor/widgets/posts.php:1123
-#: inc/mods/compatibility/elementor/widgets/posts.php:1152
-#: inc/mods/compatibility/elementor/widgets/posts.php:1180
-#: inc/mods/compatibility/elementor/widgets/posts.php:1401
+#: inc/mods/compatibility/elementor/widgets/posts.php:757
+#: inc/mods/compatibility/elementor/widgets/posts.php:798
+#: inc/mods/compatibility/elementor/widgets/posts.php:810
+#: inc/mods/compatibility/elementor/widgets/posts.php:1002
+#: inc/mods/compatibility/elementor/widgets/posts.php:1030
+#: inc/mods/compatibility/elementor/widgets/posts.php:1063
+#: inc/mods/compatibility/elementor/widgets/posts.php:1089
+#: inc/mods/compatibility/elementor/widgets/posts.php:1117
+#: inc/mods/compatibility/elementor/widgets/posts.php:1145
+#: inc/mods/compatibility/elementor/widgets/posts.php:1174
+#: inc/mods/compatibility/elementor/widgets/posts.php:1202
+#: inc/mods/compatibility/elementor/widgets/posts.php:1423
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:264
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:431
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:444
@@ -3664,9 +3664,9 @@ msgstr ""
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:2664
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:2761
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:3051
-#: inc/mods/compatibility/elementor/widgets/posts.php:2184
-#: inc/mods/compatibility/elementor/widgets/posts.php:2218
-#: inc/mods/compatibility/elementor/widgets/posts.php:2604
+#: inc/mods/compatibility/elementor/widgets/posts.php:2206
+#: inc/mods/compatibility/elementor/widgets/posts.php:2240
+#: inc/mods/compatibility/elementor/widgets/posts.php:2626
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:840
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:933
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:1408
@@ -3754,9 +3754,9 @@ msgstr ""
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:2672
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:2769
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:3059
-#: inc/mods/compatibility/elementor/widgets/posts.php:2192
-#: inc/mods/compatibility/elementor/widgets/posts.php:2226
-#: inc/mods/compatibility/elementor/widgets/posts.php:2612
+#: inc/mods/compatibility/elementor/widgets/posts.php:2214
+#: inc/mods/compatibility/elementor/widgets/posts.php:2248
+#: inc/mods/compatibility/elementor/widgets/posts.php:2634
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:848
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:941
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:1416
@@ -3818,7 +3818,7 @@ msgstr ""
 
 #: inc/mods/compatibility/elementor/page-settings/sidebar.php:66
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1618
-#: inc/mods/compatibility/elementor/widgets/posts.php:1924
+#: inc/mods/compatibility/elementor/widgets/posts.php:1946
 #: inc/mods/compatibility/elementor/widgets/testimonials-carousel.php:1303
 #: inc/mods/compatibility/elementor/widgets/text-and-icon-carousel.php:1170
 #: inc/mods/compatibility/elementor/widgets/woocommerce/filter-attribute.php:386
@@ -3848,7 +3848,7 @@ msgstr ""
 
 #: inc/mods/compatibility/elementor/pro/modules/query-control/class-the7-group-contol-query.php:45
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:525
-#: inc/mods/compatibility/elementor/widgets/posts.php:857
+#: inc/mods/compatibility/elementor/widgets/posts.php:879
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:140
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:139
 #: inc/mods/compatibility/elementor/widgets/simple-product-categories-carousel.php:134
@@ -3921,7 +3921,7 @@ msgstr ""
 #: inc/mods/compatibility/elementor/pro/modules/query-control/class-the7-group-contol-query.php:169
 #: inc/mods/compatibility/elementor/pro/modules/query-control/class-the7-group-contol-query.php:218
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:790
-#: inc/mods/compatibility/elementor/widgets/posts.php:1092
+#: inc/mods/compatibility/elementor/widgets/posts.php:1114
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:578
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:570
 msgid "Author"
@@ -3984,8 +3984,8 @@ msgstr ""
 #: inc/mods/compatibility/elementor/pro/modules/query-control/class-the7-group-contol-query.php:326
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:586
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:818
-#: inc/mods/compatibility/elementor/widgets/posts.php:918
-#: inc/mods/compatibility/elementor/widgets/posts.php:1120
+#: inc/mods/compatibility/elementor/widgets/posts.php:940
+#: inc/mods/compatibility/elementor/widgets/posts.php:1142
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:201
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:607
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:200
@@ -4053,7 +4053,7 @@ msgstr ""
 
 #: inc/mods/compatibility/elementor/pro/modules/query-control/class-the7-group-contol-query.php:322
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:582
-#: inc/mods/compatibility/elementor/widgets/posts.php:914
+#: inc/mods/compatibility/elementor/widgets/posts.php:936
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:197
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:196
 #: inc/mods/compatibility/elementor/widgets/simple-product-categories-carousel.php:196
@@ -4072,7 +4072,7 @@ msgstr ""
 #: inc/mods/compatibility/elementor/widgets/photo-scroller.php:484
 #: inc/mods/compatibility/elementor/widgets/photo-scroller.php:1486
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:703
-#: inc/mods/compatibility/elementor/widgets/posts.php:1005
+#: inc/mods/compatibility/elementor/widgets/posts.php:1027
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:273
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:441
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:1463
@@ -4144,7 +4144,7 @@ msgstr ""
 
 #: inc/mods/compatibility/elementor/pro/modules/query-control/class-the7-group-contol-query.php:340
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:566
-#: inc/mods/compatibility/elementor/widgets/posts.php:898
+#: inc/mods/compatibility/elementor/widgets/posts.php:920
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:181
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:180
 #: inc/mods/compatibility/elementor/widgets/simple-product-categories-carousel.php:211
@@ -4427,7 +4427,7 @@ msgstr ""
 #: inc/mods/compatibility/elementor/widgets/icon.php:342
 #: inc/mods/compatibility/elementor/widgets/icon.php:431
 #: inc/mods/compatibility/elementor/widgets/icon.php:505
-#: inc/mods/compatibility/elementor/widgets/posts.php:2642
+#: inc/mods/compatibility/elementor/widgets/posts.php:2664
 #: inc/mods/compatibility/elementor/widgets/taxonomy-filter.php:290
 #: inc/mods/compatibility/elementor/widgets/woocommerce/product-sorting.php:359
 #: inc/mods/compatibility/elementor/widgets/woocommerce/product-sorting.php:422
@@ -4438,7 +4438,7 @@ msgstr ""
 
 #: inc/mods/compatibility/elementor/widget-templates/button.php:320
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:101
-#: inc/mods/compatibility/elementor/widgets/posts.php:113
+#: inc/mods/compatibility/elementor/widgets/posts.php:135
 msgid "Spacing Above Button"
 msgstr ""
 
@@ -4448,7 +4448,7 @@ msgstr ""
 #: inc/mods/compatibility/elementor/widgets/icon-box-grid.php:409
 #: inc/mods/compatibility/elementor/widgets/icon-box.php:247
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1119
-#: inc/mods/compatibility/elementor/widgets/posts.php:1494
+#: inc/mods/compatibility/elementor/widgets/posts.php:1516
 #: inc/mods/compatibility/elementor/widgets/simple-widget-base.php:511
 #: inc/mods/compatibility/elementor/widgets/testimonials-carousel.php:550
 #: inc/mods/compatibility/elementor/widgets/text-and-icon-carousel.php:549
@@ -4468,8 +4468,8 @@ msgstr ""
 #: inc/mods/compatibility/elementor/widgets/icon-box.php:550
 #: inc/mods/compatibility/elementor/widgets/icon.php:192
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1163
-#: inc/mods/compatibility/elementor/widgets/posts.php:1538
-#: inc/mods/compatibility/elementor/widgets/posts.php:2900
+#: inc/mods/compatibility/elementor/widgets/posts.php:1560
+#: inc/mods/compatibility/elementor/widgets/posts.php:2922
 #: inc/mods/compatibility/elementor/widgets/simple-widget-base.php:618
 #: inc/mods/compatibility/elementor/widgets/taxonomy-filter.php:541
 #: inc/mods/compatibility/elementor/widgets/testimonials-carousel.php:594
@@ -4519,7 +4519,7 @@ msgstr ""
 #: inc/mods/compatibility/elementor/widgets/icon-box-grid.php:133
 #: inc/mods/compatibility/elementor/widgets/icon-box.php:198
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:889
-#: inc/mods/compatibility/elementor/widgets/posts.php:1190
+#: inc/mods/compatibility/elementor/widgets/posts.php:1212
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:682
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:675
 #: inc/mods/compatibility/elementor/widgets/simple-product-categories-carousel.php:740
@@ -4648,7 +4648,7 @@ msgstr ""
 #: inc/mods/compatibility/elementor/widget-templates/pagination.php:626
 #: inc/mods/compatibility/elementor/widgets/icon-box-grid.php:806
 #: inc/mods/compatibility/elementor/widgets/icon-box.php:503
-#: inc/mods/compatibility/elementor/widgets/posts.php:2598
+#: inc/mods/compatibility/elementor/widgets/posts.php:2620
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:980
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:1295
 #: inc/mods/compatibility/elementor/widgets/simple-product-categories-carousel.php:911
@@ -4686,9 +4686,9 @@ msgstr ""
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:2668
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:2765
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:3055
-#: inc/mods/compatibility/elementor/widgets/posts.php:2188
-#: inc/mods/compatibility/elementor/widgets/posts.php:2222
-#: inc/mods/compatibility/elementor/widgets/posts.php:2608
+#: inc/mods/compatibility/elementor/widgets/posts.php:2210
+#: inc/mods/compatibility/elementor/widgets/posts.php:2244
+#: inc/mods/compatibility/elementor/widgets/posts.php:2630
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:844
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:972
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:1412
@@ -4742,13 +4742,13 @@ msgstr ""
 #: inc/mods/compatibility/elementor/widget-templates/pagination.php:828
 #: inc/mods/compatibility/elementor/widget-templates/pagination.php:866
 #: inc/mods/compatibility/elementor/widget-templates/pagination.php:907
-#: inc/mods/compatibility/elementor/widgets/posts.php:2632
+#: inc/mods/compatibility/elementor/widgets/posts.php:2654
 #: inc/mods/compatibility/elementor/widgets/taxonomy-filter.php:281
 msgid "Pointer"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widget-templates/pagination.php:663
-#: inc/mods/compatibility/elementor/widgets/posts.php:2638
+#: inc/mods/compatibility/elementor/widgets/posts.php:2660
 #: inc/mods/compatibility/elementor/widgets/taxonomy-filter.php:286
 #: inc/shortcodes/vc-bridges/the7-default-button-bridge.php:385
 #: inc/shortcodes/vc-bridges/the7-text-with-icon-bridge.php:730
@@ -4756,19 +4756,19 @@ msgid "Underline"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widget-templates/pagination.php:664
-#: inc/mods/compatibility/elementor/widgets/posts.php:2639
+#: inc/mods/compatibility/elementor/widgets/posts.php:2661
 #: inc/mods/compatibility/elementor/widgets/taxonomy-filter.php:287
 msgid "Overline"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widget-templates/pagination.php:665
-#: inc/mods/compatibility/elementor/widgets/posts.php:2640
+#: inc/mods/compatibility/elementor/widgets/posts.php:2662
 #: inc/mods/compatibility/elementor/widgets/taxonomy-filter.php:288
 msgid "Double Line"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widget-templates/pagination.php:666
-#: inc/mods/compatibility/elementor/widgets/posts.php:2641
+#: inc/mods/compatibility/elementor/widgets/posts.php:2663
 #: inc/mods/compatibility/elementor/widgets/taxonomy-filter.php:289
 msgid "Framed"
 msgstr ""
@@ -4776,8 +4776,8 @@ msgstr ""
 #: inc/mods/compatibility/elementor/widget-templates/pagination.php:668
 #: inc/mods/compatibility/elementor/widgets/button.php:65
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:2199
-#: inc/mods/compatibility/elementor/widgets/posts.php:2478
-#: inc/mods/compatibility/elementor/widgets/posts.php:2643
+#: inc/mods/compatibility/elementor/widgets/posts.php:2500
+#: inc/mods/compatibility/elementor/widgets/posts.php:2665
 #: inc/mods/compatibility/elementor/widgets/taxonomy-filter.php:291
 #: inc/mods/compatibility/elementor/widgets/testimonials-carousel.php:103
 #: inc/mods/compatibility/elementor/widgets/testimonials-carousel.php:954
@@ -4800,11 +4800,11 @@ msgstr ""
 #: inc/mods/compatibility/elementor/widget-templates/pagination.php:719
 #: inc/mods/compatibility/elementor/widget-templates/pagination.php:746
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1097
-#: inc/mods/compatibility/elementor/widgets/posts.php:1472
-#: inc/mods/compatibility/elementor/widgets/posts.php:2655
-#: inc/mods/compatibility/elementor/widgets/posts.php:2676
-#: inc/mods/compatibility/elementor/widgets/posts.php:2697
-#: inc/mods/compatibility/elementor/widgets/posts.php:2724
+#: inc/mods/compatibility/elementor/widgets/posts.php:1494
+#: inc/mods/compatibility/elementor/widgets/posts.php:2677
+#: inc/mods/compatibility/elementor/widgets/posts.php:2698
+#: inc/mods/compatibility/elementor/widgets/posts.php:2719
+#: inc/mods/compatibility/elementor/widgets/posts.php:2746
 #: inc/mods/compatibility/elementor/widgets/taxonomy-filter.php:300
 #: inc/mods/compatibility/elementor/widgets/taxonomy-filter.php:320
 #: inc/mods/compatibility/elementor/widgets/taxonomy-filter.php:340
@@ -4824,7 +4824,7 @@ msgid "Animation"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widget-templates/pagination.php:780
-#: inc/mods/compatibility/elementor/widgets/posts.php:2755
+#: inc/mods/compatibility/elementor/widgets/posts.php:2777
 #: inc/mods/compatibility/elementor/widgets/taxonomy-filter.php:396
 msgid "Pointer Height"
 msgstr ""
@@ -4841,7 +4841,7 @@ msgstr ""
 #: inc/mods/compatibility/elementor/widgets/nav-menu.php:716
 #: inc/mods/compatibility/elementor/widgets/nav-menu.php:1325
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:2989
-#: inc/mods/compatibility/elementor/widgets/posts.php:2840
+#: inc/mods/compatibility/elementor/widgets/posts.php:2862
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:2415
 #: inc/mods/compatibility/elementor/widgets/simple-product-categories-carousel.php:2294
 #: inc/mods/compatibility/elementor/widgets/simple-products-carousel.php:1833
@@ -4862,7 +4862,7 @@ msgid "Active"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widget-templates/pagination.php:971
-#: inc/mods/compatibility/elementor/widgets/posts.php:2922
+#: inc/mods/compatibility/elementor/widgets/posts.php:2944
 #: inc/mods/compatibility/elementor/widgets/taxonomy-filter.php:563
 msgid "Margin"
 msgstr ""
@@ -4877,10 +4877,10 @@ msgstr ""
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:2054
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:2171
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:2252
-#: inc/mods/compatibility/elementor/widgets/posts.php:2333
-#: inc/mods/compatibility/elementor/widgets/posts.php:2450
-#: inc/mods/compatibility/elementor/widgets/posts.php:2537
-#: inc/mods/compatibility/elementor/widgets/posts.php:2944
+#: inc/mods/compatibility/elementor/widgets/posts.php:2355
+#: inc/mods/compatibility/elementor/widgets/posts.php:2472
+#: inc/mods/compatibility/elementor/widgets/posts.php:2559
+#: inc/mods/compatibility/elementor/widgets/posts.php:2966
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:1326
 #: inc/mods/compatibility/elementor/widgets/woocommerce/old-products-masonry.php:569
 #: inc/mods/compatibility/elementor/widgets/woocommerce/product-navigation.php:717
@@ -5023,7 +5023,7 @@ msgstr ""
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:2659
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:2756
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:3046
-#: inc/mods/compatibility/elementor/widgets/posts.php:2178
+#: inc/mods/compatibility/elementor/widgets/posts.php:2200
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:2108
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:2205
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:2471
@@ -5163,7 +5163,7 @@ msgstr ""
 
 #: inc/mods/compatibility/elementor/widget-templates/woocommerce/sale-flash.php:196
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1351
-#: inc/mods/compatibility/elementor/widgets/posts.php:1681
+#: inc/mods/compatibility/elementor/widgets/posts.php:1703
 #: inc/mods/compatibility/elementor/widgets/woocommerce/products.php:2129
 msgid "Background Size"
 msgstr ""
@@ -5262,8 +5262,8 @@ msgstr ""
 #: inc/mods/compatibility/elementor/widgets/photo-scroller.php:1291
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:637
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1829
-#: inc/mods/compatibility/elementor/widgets/posts.php:939
-#: inc/mods/compatibility/elementor/widgets/posts.php:2108
+#: inc/mods/compatibility/elementor/widgets/posts.php:961
+#: inc/mods/compatibility/elementor/widgets/posts.php:2130
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:377
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:369
 #: inc/mods/compatibility/elementor/widgets/simple-product-categories-carousel.php:520
@@ -5361,7 +5361,7 @@ msgstr ""
 #: inc/mods/compatibility/elementor/widgets/icon-box.php:141
 #: inc/mods/compatibility/elementor/widgets/nav-menu.php:204
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:716
-#: inc/mods/compatibility/elementor/widgets/posts.php:1018
+#: inc/mods/compatibility/elementor/widgets/posts.php:1040
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:285
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:454
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:254
@@ -5459,8 +5459,8 @@ msgstr ""
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1444
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1494
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:2526
-#: inc/mods/compatibility/elementor/widgets/posts.php:1774
-#: inc/mods/compatibility/elementor/widgets/posts.php:1824
+#: inc/mods/compatibility/elementor/widgets/posts.php:1796
+#: inc/mods/compatibility/elementor/widgets/posts.php:1846
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:1157
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:1975
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:1471
@@ -5498,7 +5498,7 @@ msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/breadcrumbs.php:49
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:2115
-#: inc/mods/compatibility/elementor/widgets/posts.php:2394
+#: inc/mods/compatibility/elementor/widgets/posts.php:2416
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:1564
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:1867
 msgid "Separator Between"
@@ -5562,7 +5562,7 @@ msgstr ""
 #: inc/mods/compatibility/elementor/widgets/icon-box-grid.php:249
 #: inc/mods/compatibility/elementor/widgets/nav-menu.php:124
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:905
-#: inc/mods/compatibility/elementor/widgets/posts.php:1206
+#: inc/mods/compatibility/elementor/widgets/posts.php:1228
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:253
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:222
 #: inc/mods/compatibility/elementor/widgets/simple-product-categories-carousel.php:383
@@ -5825,7 +5825,7 @@ msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/horizontal-menu.php:689
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1101
-#: inc/mods/compatibility/elementor/widgets/posts.php:1476
+#: inc/mods/compatibility/elementor/widgets/posts.php:1498
 msgid "Fade"
 msgstr ""
 
@@ -6120,7 +6120,7 @@ msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/icon-box-grid.php:301
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:913
-#: inc/mods/compatibility/elementor/widgets/posts.php:1258
+#: inc/mods/compatibility/elementor/widgets/posts.php:1280
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:305
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:274
 #: inc/mods/compatibility/elementor/widgets/simple-product-categories-carousel.php:435
@@ -6136,7 +6136,7 @@ msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/icon-box-grid.php:322
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:932
-#: inc/mods/compatibility/elementor/widgets/posts.php:1280
+#: inc/mods/compatibility/elementor/widgets/posts.php:1302
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:322
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:295
 #: inc/mods/compatibility/elementor/widgets/simple-product-categories-carousel.php:452
@@ -6247,10 +6247,10 @@ msgstr ""
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:2037
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:2157
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:2239
-#: inc/mods/compatibility/elementor/widgets/posts.php:2293
-#: inc/mods/compatibility/elementor/widgets/posts.php:2316
-#: inc/mods/compatibility/elementor/widgets/posts.php:2436
-#: inc/mods/compatibility/elementor/widgets/posts.php:2521
+#: inc/mods/compatibility/elementor/widgets/posts.php:2315
+#: inc/mods/compatibility/elementor/widgets/posts.php:2338
+#: inc/mods/compatibility/elementor/widgets/posts.php:2458
+#: inc/mods/compatibility/elementor/widgets/posts.php:2543
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:869
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:1615
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:1640
@@ -6988,7 +6988,7 @@ msgid "Posts Carousel"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:517
-#: inc/mods/compatibility/elementor/widgets/posts.php:849
+#: inc/mods/compatibility/elementor/widgets/posts.php:871
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:132
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:131
 #: inc/mods/compatibility/elementor/widgets/simple-product-categories-carousel.php:126
@@ -7004,14 +7004,14 @@ msgid "Query"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:528
-#: inc/mods/compatibility/elementor/widgets/posts.php:860
+#: inc/mods/compatibility/elementor/widgets/posts.php:882
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:143
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:142
 msgid "Related"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:536
-#: inc/mods/compatibility/elementor/widgets/posts.php:868
+#: inc/mods/compatibility/elementor/widgets/posts.php:890
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:151
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:150
 #: inc/mods/compatibility/elementor/widgets/taxonomy-filter.php:178
@@ -7019,7 +7019,7 @@ msgid "Select Taxonomy"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:550
-#: inc/mods/compatibility/elementor/widgets/posts.php:882
+#: inc/mods/compatibility/elementor/widgets/posts.php:904
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:165
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:164
 #: inc/mods/compatibility/elementor/widgets/taxonomy-filter.php:192
@@ -7027,7 +7027,7 @@ msgid "Select Terms"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:587
-#: inc/mods/compatibility/elementor/widgets/posts.php:919
+#: inc/mods/compatibility/elementor/widgets/posts.php:941
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:202
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:201
 #: inc/mods/compatibility/elementor/widgets/simple-product-categories-carousel.php:200
@@ -7041,70 +7041,70 @@ msgid "Name"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:588
-#: inc/mods/compatibility/elementor/widgets/posts.php:920
+#: inc/mods/compatibility/elementor/widgets/posts.php:942
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:203
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:202
 msgid "ID"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:589
-#: inc/mods/compatibility/elementor/widgets/posts.php:921
+#: inc/mods/compatibility/elementor/widgets/posts.php:943
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:204
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:203
 msgid "Modified"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:590
-#: inc/mods/compatibility/elementor/widgets/posts.php:922
+#: inc/mods/compatibility/elementor/widgets/posts.php:944
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:205
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:204
 msgid "Comment count"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:591
-#: inc/mods/compatibility/elementor/widgets/posts.php:923
+#: inc/mods/compatibility/elementor/widgets/posts.php:945
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:206
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:205
 msgid "Menu order"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:592
-#: inc/mods/compatibility/elementor/widgets/posts.php:924
+#: inc/mods/compatibility/elementor/widgets/posts.php:946
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:207
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:206
 msgid "Rand"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:645
-#: inc/mods/compatibility/elementor/widgets/posts.php:947
+#: inc/mods/compatibility/elementor/widgets/posts.php:969
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:385
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:377
 msgid "Links To A Single Post"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:657
-#: inc/mods/compatibility/elementor/widgets/posts.php:959
+#: inc/mods/compatibility/elementor/widgets/posts.php:981
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:397
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:389
 msgid "Links Lead To"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:661
-#: inc/mods/compatibility/elementor/widgets/posts.php:963
+#: inc/mods/compatibility/elementor/widgets/posts.php:985
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:401
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:393
 msgid "Posts"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:662
-#: inc/mods/compatibility/elementor/widgets/posts.php:964
+#: inc/mods/compatibility/elementor/widgets/posts.php:986
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:402
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:394
 msgid "External links or posts"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:663
-#: inc/mods/compatibility/elementor/widgets/posts.php:965
+#: inc/mods/compatibility/elementor/widgets/posts.php:987
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:403
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:395
 msgid "External links or disabled"
@@ -7112,8 +7112,8 @@ msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:675
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1279
-#: inc/mods/compatibility/elementor/widgets/posts.php:977
-#: inc/mods/compatibility/elementor/widgets/posts.php:1646
+#: inc/mods/compatibility/elementor/widgets/posts.php:999
+#: inc/mods/compatibility/elementor/widgets/posts.php:1668
 #: inc/shortcodes/vc-bridges/the7-blog-carousel-bridge.php:826
 #: inc/shortcodes/vc-bridges/the7-blog-carousel-bridge.php:837
 #: inc/shortcodes/vc-bridges/the7-blog-carousel-bridge.php:848
@@ -7173,12 +7173,12 @@ msgid "Hover Icon"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:688
-#: inc/mods/compatibility/elementor/widgets/posts.php:990
+#: inc/mods/compatibility/elementor/widgets/posts.php:1012
 msgid "Choose Icon"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:736
-#: inc/mods/compatibility/elementor/widgets/posts.php:1038
+#: inc/mods/compatibility/elementor/widgets/posts.php:1060
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:506
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:1683
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:498
@@ -7187,7 +7187,7 @@ msgid "Excerpt"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:749
-#: inc/mods/compatibility/elementor/widgets/posts.php:1051
+#: inc/mods/compatibility/elementor/widgets/posts.php:1073
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:490
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:535
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:482
@@ -7207,7 +7207,7 @@ msgid "Maximum Number Of Words"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:750
-#: inc/mods/compatibility/elementor/widgets/posts.php:1052
+#: inc/mods/compatibility/elementor/widgets/posts.php:1074
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:536
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:528
 #: inc/mods/compatibility/elementor/widgets/simple-product-categories-carousel.php:649
@@ -7216,24 +7216,24 @@ msgid "Leave empty to show the entire excerpt."
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:762
-#: inc/mods/compatibility/elementor/widgets/posts.php:1064
+#: inc/mods/compatibility/elementor/widgets/posts.php:1086
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:549
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:541
 msgid "Category"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:848
-#: inc/mods/compatibility/elementor/widgets/posts.php:1149
+#: inc/mods/compatibility/elementor/widgets/posts.php:1171
 msgid "Comments count"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:876
-#: inc/mods/compatibility/elementor/widgets/posts.php:1177
+#: inc/mods/compatibility/elementor/widgets/posts.php:1199
 msgid "Read More"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:891
-#: inc/mods/compatibility/elementor/widgets/posts.php:1192
+#: inc/mods/compatibility/elementor/widgets/posts.php:1214
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:684
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:677
 msgid "Read more"
@@ -7264,7 +7264,7 @@ msgid "Adaptive Height"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:999
-#: inc/mods/compatibility/elementor/widgets/posts.php:1374
+#: inc/mods/compatibility/elementor/widgets/posts.php:1396
 #: inc/mods/compatibility/elementor/widgets/testimonials-carousel.php:419
 #: inc/mods/compatibility/elementor/widgets/text-and-icon-carousel.php:413
 #: inc/mods/compatibility/elementor/widgets/woocommerce/product-navigation.php:78
@@ -7273,7 +7273,7 @@ msgid "Skin"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1007
-#: inc/mods/compatibility/elementor/widgets/posts.php:1382
+#: inc/mods/compatibility/elementor/widgets/posts.php:1404
 #: inc/mods/compatibility/elementor/widgets/testimonials-carousel.php:440
 #: inc/mods/compatibility/elementor/widgets/text-and-icon-carousel.php:421
 #: inc/mods/compatibility/elementor/widgets/woocommerce/products.php:1286
@@ -7281,82 +7281,82 @@ msgid "Choose Skin"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1011
-#: inc/mods/compatibility/elementor/widgets/posts.php:1386
+#: inc/mods/compatibility/elementor/widgets/posts.php:1408
 #: inc/mods/compatibility/elementor/widgets/woocommerce/products.php:1290
 msgid "Classic"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1012
-#: inc/mods/compatibility/elementor/widgets/posts.php:1387
+#: inc/mods/compatibility/elementor/widgets/posts.php:1409
 msgid "Overlapping content area"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1013
-#: inc/mods/compatibility/elementor/widgets/posts.php:1388
+#: inc/mods/compatibility/elementor/widgets/posts.php:1410
 msgid "Blurred content area"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1014
-#: inc/mods/compatibility/elementor/widgets/posts.php:1389
+#: inc/mods/compatibility/elementor/widgets/posts.php:1411
 msgid "Simple overlay on hover"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1015
-#: inc/mods/compatibility/elementor/widgets/posts.php:1390
+#: inc/mods/compatibility/elementor/widgets/posts.php:1412
 msgid "Blurred bottom overlay on hover"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1023
-#: inc/mods/compatibility/elementor/widgets/posts.php:1398
+#: inc/mods/compatibility/elementor/widgets/posts.php:1420
 msgid "Image Visibility"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1038
-#: inc/mods/compatibility/elementor/widgets/posts.php:1413
+#: inc/mods/compatibility/elementor/widgets/posts.php:1435
 msgid "Max Image Width"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1070
-#: inc/mods/compatibility/elementor/widgets/posts.php:1445
+#: inc/mods/compatibility/elementor/widgets/posts.php:1467
 msgid "Content Box Overlap"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1102
-#: inc/mods/compatibility/elementor/widgets/posts.php:1477
+#: inc/mods/compatibility/elementor/widgets/posts.php:1499
 msgid "Direction aware"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1103
-#: inc/mods/compatibility/elementor/widgets/posts.php:1478
+#: inc/mods/compatibility/elementor/widgets/posts.php:1500
 msgid "Reverse direction aware"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1104
-#: inc/mods/compatibility/elementor/widgets/posts.php:1479
+#: inc/mods/compatibility/elementor/widgets/posts.php:1501
 msgid "Scale in"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1415
-#: inc/mods/compatibility/elementor/widgets/posts.php:1745
+#: inc/mods/compatibility/elementor/widgets/posts.php:1767
 msgid "Icon Margin"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1459
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1508
-#: inc/mods/compatibility/elementor/widgets/posts.php:1789
-#: inc/mods/compatibility/elementor/widgets/posts.php:1838
+#: inc/mods/compatibility/elementor/widgets/posts.php:1811
+#: inc/mods/compatibility/elementor/widgets/posts.php:1860
 msgid "Icon Border Color"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1472
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1523
-#: inc/mods/compatibility/elementor/widgets/posts.php:1802
-#: inc/mods/compatibility/elementor/widgets/posts.php:1853
+#: inc/mods/compatibility/elementor/widgets/posts.php:1824
+#: inc/mods/compatibility/elementor/widgets/posts.php:1875
 msgid "Icon Background Color"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1546
-#: inc/mods/compatibility/elementor/widgets/posts.php:1876
+#: inc/mods/compatibility/elementor/widgets/posts.php:1898
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:428
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:420
 #: inc/mods/compatibility/elementor/widgets/simple-product-categories-carousel.php:541
@@ -7372,7 +7372,7 @@ msgid "Image"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1579
-#: inc/mods/compatibility/elementor/widgets/posts.php:1887
+#: inc/mods/compatibility/elementor/widgets/posts.php:1909
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:1083
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:1400
 #: inc/mods/compatibility/elementor/widgets/simple-product-categories-carousel.php:1011
@@ -7386,21 +7386,21 @@ msgid "Image Ratio"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1580
-#: inc/mods/compatibility/elementor/widgets/posts.php:1888
+#: inc/mods/compatibility/elementor/widgets/posts.php:1910
 #: inc/mods/compatibility/elementor/widgets/testimonials-carousel.php:1267
 #: inc/mods/compatibility/elementor/widgets/text-and-icon-carousel.php:1134
 msgid "Lieve empty to use original proportions"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1614
-#: inc/mods/compatibility/elementor/widgets/posts.php:1920
+#: inc/mods/compatibility/elementor/widgets/posts.php:1942
 #: inc/mods/compatibility/elementor/widgets/testimonials-carousel.php:1299
 #: inc/mods/compatibility/elementor/widgets/text-and-icon-carousel.php:1166
 msgid "Scale Animation On Hover"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1619
-#: inc/mods/compatibility/elementor/widgets/posts.php:1925
+#: inc/mods/compatibility/elementor/widgets/posts.php:1947
 #: inc/mods/compatibility/elementor/widgets/testimonials-carousel.php:1304
 #: inc/mods/compatibility/elementor/widgets/text-and-icon-carousel.php:1171
 #: inc/mods/compatibility/elementor/widgets/woocommerce/products.php:1606
@@ -7408,7 +7408,7 @@ msgid "Quick scale"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1620
-#: inc/mods/compatibility/elementor/widgets/posts.php:1926
+#: inc/mods/compatibility/elementor/widgets/posts.php:1948
 #: inc/mods/compatibility/elementor/widgets/testimonials-carousel.php:1305
 #: inc/mods/compatibility/elementor/widgets/text-and-icon-carousel.php:1172
 #: inc/mods/compatibility/elementor/widgets/woocommerce/products.php:1607
@@ -7417,8 +7417,8 @@ msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1642
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1720
-#: inc/mods/compatibility/elementor/widgets/posts.php:1948
-#: inc/mods/compatibility/elementor/widgets/posts.php:2026
+#: inc/mods/compatibility/elementor/widgets/posts.php:1970
+#: inc/mods/compatibility/elementor/widgets/posts.php:2048
 #: inc/mods/compatibility/elementor/widgets/woocommerce/products.php:1646
 #: inc/mods/compatibility/elementor/widgets/woocommerce/products.php:1725
 msgid "Background Overlay"
@@ -7426,8 +7426,8 @@ msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1682
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1771
-#: inc/mods/compatibility/elementor/widgets/posts.php:1988
-#: inc/mods/compatibility/elementor/widgets/posts.php:2076
+#: inc/mods/compatibility/elementor/widgets/posts.php:2010
+#: inc/mods/compatibility/elementor/widgets/posts.php:2098
 #: inc/mods/compatibility/elementor/widgets/testimonials-carousel.php:1360
 #: inc/mods/compatibility/elementor/widgets/testimonials-carousel.php:1437
 #: inc/mods/compatibility/elementor/widgets/text-and-icon-carousel.php:1227
@@ -7438,23 +7438,23 @@ msgid "Opacity"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1850
-#: inc/mods/compatibility/elementor/widgets/posts.php:2129
+#: inc/mods/compatibility/elementor/widgets/posts.php:2151
 msgid "Content Width"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1878
-#: inc/mods/compatibility/elementor/widgets/posts.php:2157
+#: inc/mods/compatibility/elementor/widgets/posts.php:2179
 msgid "Content Padding"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1933
-#: inc/mods/compatibility/elementor/widgets/posts.php:2212
+#: inc/mods/compatibility/elementor/widgets/posts.php:2234
 #: inc/mods/compatibility/elementor/widgets/woocommerce/products.php:1455
 msgid "Text Alignment"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:1965
-#: inc/mods/compatibility/elementor/widgets/posts.php:2244
+#: inc/mods/compatibility/elementor/widgets/posts.php:2266
 #: inc/shortcodes/vc-bridges/the7-blog-carousel-bridge.php:444
 #: inc/shortcodes/vc-bridges/the7-blog-list-bridge.php:391
 #: inc/shortcodes/vc-bridges/the7-blog-masonry-bridge.php:368
@@ -7462,7 +7462,7 @@ msgid "Post Title"
 msgstr ""
 
 #: inc/mods/compatibility/elementor/widgets/posts-carousel.php:2082
-#: inc/mods/compatibility/elementor/widgets/posts.php:2361
+#: inc/mods/compatibility/elementor/widgets/posts.php:2383
 #: inc/mods/compatibility/elementor/widgets/simple-posts-carousel.php:1531
 #: inc/mods/compatibility/elementor/widgets/simple-posts.php:1834
 #: inc/shortcodes/vc-bridges/the7-blog-carousel-bridge.php:495
@@ -7869,111 +7869,115 @@ msgstr ""
 msgid "Posts Masonry & Grid"
 msgstr ""
 
-#: inc/mods/compatibility/elementor/widgets/posts.php:142
+#: inc/mods/compatibility/elementor/widgets/posts.php:102
+msgid "Filter and pagination with page reloading."
+msgstr ""
+
+#: inc/mods/compatibility/elementor/widgets/posts.php:164
 msgid "Number Of Posts On One Page"
 msgstr ""
 
-#: inc/mods/compatibility/elementor/widgets/posts.php:143
+#: inc/mods/compatibility/elementor/widgets/posts.php:165
 msgid "Leave empty to display default archive posts amount."
 msgstr ""
 
-#: inc/mods/compatibility/elementor/widgets/posts.php:721
-#: inc/mods/compatibility/elementor/widgets/posts.php:2567
+#: inc/mods/compatibility/elementor/widgets/posts.php:743
+#: inc/mods/compatibility/elementor/widgets/posts.php:2589
 msgid "Filter Bar"
 msgstr ""
 
-#: inc/mods/compatibility/elementor/widgets/posts.php:732
+#: inc/mods/compatibility/elementor/widgets/posts.php:754
 #: inc/mods/compatibility/elementor/widgets/taxonomy-filter.php:39
 msgid "Taxonomy Filter"
 msgstr ""
 
-#: inc/mods/compatibility/elementor/widgets/posts.php:744
+#: inc/mods/compatibility/elementor/widgets/posts.php:766
 #: inc/mods/compatibility/elementor/widgets/taxonomy-filter.php:222
 msgid "\"All\" Filter"
 msgstr ""
 
-#: inc/mods/compatibility/elementor/widgets/posts.php:759
+#: inc/mods/compatibility/elementor/widgets/posts.php:781
 #: inc/mods/compatibility/elementor/widgets/taxonomy-filter.php:234
 msgid "\"All\" Filter Label"
 msgstr ""
 
-#: inc/mods/compatibility/elementor/widgets/posts.php:773
+#: inc/mods/compatibility/elementor/widgets/posts.php:795
 msgid "Name / Date Ordering"
 msgstr ""
 
-#: inc/mods/compatibility/elementor/widgets/posts.php:785
+#: inc/mods/compatibility/elementor/widgets/posts.php:807
 msgid "Asc. / Desc. Ordering"
 msgstr ""
 
-#: inc/mods/compatibility/elementor/widgets/posts.php:797
+#: inc/mods/compatibility/elementor/widgets/posts.php:819
 msgid "Allow Navigation By Url"
 msgstr ""
 
-#: inc/mods/compatibility/elementor/widgets/posts.php:1214
+#: inc/mods/compatibility/elementor/widgets/posts.php:1236
 msgid "Masonry"
 msgstr ""
 
-#: inc/mods/compatibility/elementor/widgets/posts.php:1224
+#: inc/mods/compatibility/elementor/widgets/posts.php:1246
 msgid "Loading Effect"
 msgstr ""
 
-#: inc/mods/compatibility/elementor/widgets/posts.php:1229
+#: inc/mods/compatibility/elementor/widgets/posts.php:1251
 msgid "Fade in"
 msgstr ""
 
-#: inc/mods/compatibility/elementor/widgets/posts.php:1230
+#: inc/mods/compatibility/elementor/widgets/posts.php:1252
 msgid "Move up"
 msgstr ""
 
-#: inc/mods/compatibility/elementor/widgets/posts.php:1231
+#: inc/mods/compatibility/elementor/widgets/posts.php:1253
 msgid "Scale up"
 msgstr ""
 
-#: inc/mods/compatibility/elementor/widgets/posts.php:1232
+#: inc/mods/compatibility/elementor/widgets/posts.php:1254
 msgid "Fall perspective"
 msgstr ""
 
-#: inc/mods/compatibility/elementor/widgets/posts.php:1233
+#: inc/mods/compatibility/elementor/widgets/posts.php:1255
 msgid "Fly"
 msgstr ""
 
-#: inc/mods/compatibility/elementor/widgets/posts.php:1234
+#: inc/mods/compatibility/elementor/widgets/posts.php:1256
 msgid "Flip"
 msgstr ""
 
-#: inc/mods/compatibility/elementor/widgets/posts.php:1235
+#: inc/mods/compatibility/elementor/widgets/posts.php:1257
 msgid "Helix"
 msgstr ""
 
-#: inc/mods/compatibility/elementor/widgets/posts.php:1236
+#: inc/mods/compatibility/elementor/widgets/posts.php:1258
 msgid "Scale"
 msgstr ""
 
-#: inc/mods/compatibility/elementor/widgets/posts.php:1244
+#: inc/mods/compatibility/elementor/widgets/posts.php:1266
 msgid "Responsiveness Mode"
 msgstr ""
 
-#: inc/mods/compatibility/elementor/widgets/posts.php:1248
+#: inc/mods/compatibility/elementor/widgets/posts.php:1270
 msgid "Browser width based"
 msgstr ""
 
-#: inc/mods/compatibility/elementor/widgets/posts.php:1249
+#: inc/mods/compatibility/elementor/widgets/posts.php:1271
 msgid "Post width based"
 msgstr ""
 
-#: inc/mods/compatibility/elementor/widgets/posts.php:1296
+#: inc/mods/compatibility/elementor/widgets/posts.php:1318
 msgid "Column Minimum Width"
 msgstr ""
 
-#: inc/mods/compatibility/elementor/widgets/posts.php:1320
+#: inc/mods/compatibility/elementor/widgets/posts.php:1342
 msgid "Desired Columns Number"
 msgstr ""
 
-#: inc/mods/compatibility/elementor/widgets/posts.php:1335
+#: inc/mods/compatibility/elementor/widgets/posts.php:1357
 msgid "Gap Between Columns"
 msgstr ""
 
-#: inc/mods/compatibility/elementor/widgets/posts.php:1336
+#: inc/mods/compatibility/elementor/widgets/posts.php:1358
 #: inc/mods/compatibility/elementor/widgets/woocommerce/old-products-masonry.php:203
 #: inc/mods/compatibility/elementor/widgets/woocommerce/products.php:988
 #: inc/shortcodes/vc-bridges/the7-blog-masonry-bridge.php:339
@@ -7984,17 +7988,17 @@ msgid ""
 "value 10px will give you 20px gaps between posts)"
 msgstr ""
 
-#: inc/mods/compatibility/elementor/widgets/posts.php:1359
+#: inc/mods/compatibility/elementor/widgets/posts.php:1381
 msgid "Make All Posts The Same Width"
 msgstr ""
 
-#: inc/mods/compatibility/elementor/widgets/posts.php:1360
+#: inc/mods/compatibility/elementor/widgets/posts.php:1382
 #: inc/shortcodes/vc-bridges/the7-blog-masonry-bridge.php:350
 msgid "Post wide/normal width can be chosen in single post options."
 msgstr ""
 
-#: inc/mods/compatibility/elementor/widgets/posts.php:2825
-#: inc/mods/compatibility/elementor/widgets/posts.php:2860
+#: inc/mods/compatibility/elementor/widgets/posts.php:2847
+#: inc/mods/compatibility/elementor/widgets/posts.php:2882
 #: inc/mods/compatibility/elementor/widgets/taxonomy-filter.php:466
 #: inc/mods/compatibility/elementor/widgets/taxonomy-filter.php:501
 msgid "Pointer Color"

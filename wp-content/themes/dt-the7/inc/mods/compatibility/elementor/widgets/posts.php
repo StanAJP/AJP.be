@@ -88,6 +88,28 @@ class Posts extends The7_Elementor_Widget_Base {
 		$this->add_filter_bar_content_controls();
 		$this->template( Pagination::class )->add_content_controls( 'post_type' );
 
+		$this->start_injection(
+			[
+				'type' => 'control',
+				'at'   => 'before',
+				'of'   => 'loading_mode',
+			]
+		);
+
+		$this->add_control(
+			'standard_pagination_mode_description',
+			[
+				'raw'             => esc_html__( 'Filter and pagination with page reloading.', 'the7mk2' ),
+				'type'            => Controls_Manager::RAW_HTML,
+				'content_classes' => 'elementor-panel-alert elementor-panel-alert-info',
+				'condition'       => [
+					'loading_mode' => 'standard',
+				],
+			]
+		);
+
+		$this->end_injection();
+
 		// Style Tab.
 		$this->add_skin_style_controls();
 		$this->add_box_style_controls();

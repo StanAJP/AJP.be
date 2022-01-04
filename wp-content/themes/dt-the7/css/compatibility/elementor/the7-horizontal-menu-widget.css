@@ -157,7 +157,7 @@
   transition: opacity 0.3s;
 }
 .decoration-center .dt-nav-menu-horizontal > li > a:hover:after {
-  visibility: visible;
+  visibility: inherit;
   transform: scaleX(1);
 }
 .decoration-left-to-right .dt-nav-menu-horizontal > li > a:hover:after {
@@ -173,7 +173,7 @@
 }
 .decoration-center .dt-nav-menu-horizontal > li.act > a:after,
 .decoration-center .dt-nav-menu-horizontal > li.parent-clicked > a:after {
-  visibility: visible;
+  visibility: inherit;
   transform: scaleX(1);
 }
 .decoration-left-to-right .dt-nav-menu-horizontal > li.act > a:after,
@@ -249,7 +249,7 @@
   top: calc(-1 * var(--submenu-padding-top, 0px));
   left: calc(var(--submenu-padding-right, 0px) + 100%);
   background: var(--the7-content-boxes-bg);
-  padding: var(--sub-paddings, 0px) var(--submenu-padding-right, 0px) var(--submenu-padding-bottom, 0px) var(--submenu-padding-left, 0px);
+  padding: var(--submenu-padding-top, 0px) var(--submenu-padding-right, 0px) var(--submenu-padding-bottom, 0px) var(--submenu-padding-left, 0px);
 }
 .horizontal-sub-nav .horizontal-sub-nav.right-overflow {
   left: auto;

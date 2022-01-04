@@ -25,7 +25,7 @@ if ( $config->get_bool( 'post.fancy_date.enabled' ) ) {
 	do_action( 'presscore_before_post_content' );
 
 	// Post featured image.
-	presscore_get_template_part( 'theme', 'single-post/post-featured-image' );
+	//presscore_get_template_part( 'theme', 'single-post/post-featured-image' );
 
 	// Post content.
 	echo '<div class="entry-content">';

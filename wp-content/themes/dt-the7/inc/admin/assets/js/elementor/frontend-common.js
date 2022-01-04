@@ -1,15 +1,12 @@
 (function ($) {
     // Make sure you run this code under Elementor.
-    // Make sure you run this code under Elementor.
     $(window).on("elementor/frontend/init", function () {
-
         The7ElementorSettings = function ($el) {
-            var $widget = $el,
-                methods;
+            this.$widget = $el;
             // Private methods
-            methods = {
-                getModelCID: function () {
-                    return $widget.data('model-cid');
+            var methods = {
+                getModelCID: function ($widget) {
+                    return  $widget.data('model-cid');
                 },
                 getItems: function (items, itemKey) {
                     if (itemKey) {
@@ -31,7 +28,7 @@
                 }
             };
             The7ElementorSettings.prototype.getModelCID = function () {
-                return methods.getModelCID();
+                return methods.getModelCID(this.$widget);
             };
 
             The7ElementorSettings.prototype.getCurrentDeviceSetting = function (settingKey) {
@@ -40,7 +37,7 @@
 
             The7ElementorSettings.prototype.getSettings = function (setting) {
                 var elementSettings = {};
-                const modelCID = methods.getModelCID();
+                const modelCID = methods.getModelCID(this.$widget);
                 if (modelCID) {
                     const settings = elementorFrontend.config.elements.data[modelCID],
                         attributes = settings.attributes;
@@ -75,7 +72,7 @@
                         }
                     });
                 } else {
-                    elementSettings = $widget.data('settings') || {};
+                    elementSettings = this.$widget.data('settings') || {};
                 }
                 return methods.getItems(elementSettings, setting);
             };
